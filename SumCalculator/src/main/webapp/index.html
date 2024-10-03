@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+</head>
+<body>
+<h1>Choose 2 numbers</h1>
+<form method="post" action="/SumCalculator/Sum">
+<label for="num1"> X</label></br>
+<input type="text" name="num1"></br>
+
+ <label for="operation">Operation:</label><br>
+        <select name="operation" required>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select><br>
+        
+        
+<label for="num2">Y</label></br>
+<input type="text" name="num2"></br>
+
+<input type="submit" value="Calculate">
+</form>
+</body>
+</html>
